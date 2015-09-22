@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^citruscountymlsonline\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.citruscountymlsonline\.com$
+RewriteRule ^/?$ "http\:\/\/bjdavis\.com" [R=301,L]
+
